@@ -9,13 +9,29 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 </head>
 <body>
-    
-
-
-
-
-
-
+    <h1 id="header">Crystals Collector!</h1>
+    <div id="instructions">
+        <p>You will be given a random number at the start of the game.</p>
+        <p>There are four crystals to the right. By clicking on a crystal, you will add a specific amount to your score.</p>
+        <p>You win the game by matching your total score to the random number.</p>
+        <p>You lose the game if your total score goes above the random number.</p>
+        <p>The value of each crystal is hidden from you until you click on it.</p>
+        <p>Each time the game starts, the values of the crystals change.</p>
+    </div>
+    <div id="text1">Random Number</div>
+    <div id="randomNumber"></div>
+    <div id="text2">Total Score</div>
+    <div id="totalScore"></div>
+    <div id="totalRecord">
+        <p id="wins">Wins: 0</p>
+        <p id="losses">Losses: 0</p>
+    </div>
+    <div id="crystals">
+        <img src="./Assets/Images/crystal1.jpg" alt="Crystal 1">
+        <img src="./Assets/Images/crystal2.jpg" alt="Crystal 2">
+        <img src="./Assets/Images/crystal3.jpg" alt="Crystal 3">
+        <img src="./Assets/Images/crystal4.jpg" alt="Crystal 4">
+    </div>
     <script src="../Unit-4-Game/Assets/Javascript/game.js"></script>
 </body>
 </html>

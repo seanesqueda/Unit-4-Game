@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url("../Images/header_img.png");
+    background-size: cover;
+    position: relative;
+    margin: 0;
+}
+
+#header {
+    color: white;
+    background-color: brown;
+    text-align: center;
+    display: block;
+    margin: 0px;
+    padding: 20px;
+    width: 100%;
+}
+
+#instructions {
+    margin: 20px 10px 10px;
+    padding: 20px;
+    width: 25%;
+    background-color: burlywood;
+    color: green;
+    font-weight: bold;
+    height: 500px;
+}
+#text1 {
+    position: absolute;
+    top: 97px;
+    left: 30%;
+    background-color: lightgreen;
+    color: purple;
+    padding: 15px;
+    width: 300px;
+    height: 55px;
+    font-size: 38px;
+    text-align: center;
+    text-decoration: underline;
+}
+#randomNumber {
+    position: absolute;
+    top: 150px;
+    left: 30%;
+    background-color: lightgreen;
+    color: purple;
+    padding: 80px;
+    width: 300px;
+    height: 250px;
+    font-size: 70px;
+    text-align: center;
+}
+#totalRecord{
+    position: absolute;
+    top: 98px;
+    right: 5%;
+    background-color: lightblue;
+    color: purple;
+    width: 200px;
+    height: 300px;
+    font-size: 45px;
+    padding: 30px 15px;
+}
+#text2 {
+    position: absolute;
+    top: 97px;
+    left: 55%;
+    background-color: darkblue;
+    color:white;
+    padding: 15px;
+    width: 300px;
+    height: 55px;
+    font-size: 38px;
+    text-align: center;
+    text-decoration: underline;
+}
+#totalScore {
+    position: absolute;
+    top: 150px;
+    left: 55%;
+    background-color: darkblue;
+    color: white;
+    padding: 80px;
+    width: 300px;
+    height: 250px;
+    font-size: 70px;
+    text-align: center;
+}
+#crystals{
+    position: absolute;
+    top: 70%;
+    right: 22%;
+}
+img {
+    height: 161px;
+    width: 161px;
+}
