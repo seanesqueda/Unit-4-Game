@@ -25,7 +25,7 @@ $(document).ready(function () {
             crystal2 = getRndInteger(1, 12);
         }
         crystal3 = getRndInteger(1, 12);
-        while (crystal3=== crystal1 || crystal3 === crystal2) {
+        while (crystal3 === crystal1 || crystal3 === crystal2) {
             crystal3 = getRndInteger(1, 12);
         }
         crystal4 = getRndInteger(1, 12);
