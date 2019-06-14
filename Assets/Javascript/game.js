@@ -18,11 +18,20 @@ $(document).ready(function () {
     function startGame() {
         //Generate random number
         randomNumber = getRndInteger(19, 120);
-        //Generate random value for each crystal
+        //Generate random value for each crystal while maintaining that no crystals are same value
         crystal1 = getRndInteger(1, 12);
         crystal2 = getRndInteger(1, 12);
+        while (crystal2 === crystal1) {
+            crystal2 = getRndInteger(1, 12);
+        }
         crystal3 = getRndInteger(1, 12);
+        while (crystal3=== crystal1 || crystal3 === crystal2) {
+            crystal3 = getRndInteger(1, 12);
+        }
         crystal4 = getRndInteger(1, 12);
+        while (crystal4 === crystal3 || crystal4 === crystal2 || crystal4 === crystal1){
+            crystal4 = getRndInteger(1, 12);
+        }
         //Display to screen
         $('#randomNumber').text(randomNumber);
         counter = 0;
